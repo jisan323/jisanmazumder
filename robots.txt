@@ -1,4 +1,51 @@
+# ==============================================================================
+# Robots.txt for Jisan Mazumder - SEO Specialist & Content Strategist Portfolio
+# Website: https://jisanmazumder.vercel.app/
+# ==============================================================================
+
+# Global Crawler Rules (Allow all search engines to crawl & index content)
 User-agent: *
 Allow: /
+Allow: /css/
+Allow: /js/
+Allow: /assets/
+Allow: /*.html$
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.svg$
+Allow: /*.webp$
+Allow: /*.ico$
 
+# Disallow internal scripts & maintenance files
+Disallow: /*.ps1$
+Disallow: /scratch/
+Disallow: /.system_generated/
+
+# Googlebot Rules
+User-agent: Googlebot
+Allow: /
+
+# Googlebot Image Crawler
+User-agent: Googlebot-Image
+Allow: /assets/
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.svg$
+Allow: /*.webp$
+
+# Bing Crawler
+User-agent: Bingbot
+Allow: /
+
+# Apple Search Crawler
+User-agent: Applebot
+Allow: /
+
+# DuckDuckGo Crawler
+User-agent: DuckDuckBot
+Allow: /
+
+# XML Sitemap Location
 Sitemap: https://jisanmazumder.vercel.app/sitemap.xml
