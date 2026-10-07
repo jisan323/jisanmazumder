@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://jisanmazumder.vercel.app/sitemap.xml
 Sitemap: https://jisanmazumder.com/sitemap.xml
+
